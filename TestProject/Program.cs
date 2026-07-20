@@ -12,6 +12,7 @@ Console.WriteLine($"First roll: {roll1}");
 Console.WriteLine($"Second roll: {roll2}");
 Console.WriteLine($"Third roll: {roll3}");
 
+
 //--- Unidad 5/8
 Random rnd = new();
 
@@ -61,8 +62,8 @@ if (total < 15)
     Console.WriteLine("Sorry, you loose.");
 }
 
+
 //--- Unidad 3/7
-*/
 
 Random dice = new Random();
 
@@ -105,3 +106,37 @@ else
 {
     Console.WriteLine("You win a Kitten!");
 }
+
+
+// --- Unidad 4/7
+
+Random rnd = new();
+int daysUntilExpiration = rnd.Next(12);
+int discountPercentage = 0;
+
+//Console.WriteLine(daysUntilExpiration);
+
+if (daysUntilExpiration <= 10)
+{
+    if (daysUntilExpiration == 0)
+    {
+        Console.WriteLine("Your subscription has expired.");
+    }
+    else if (daysUntilExpiration == 1)
+    {
+        discountPercentage = 20;
+        Console.WriteLine("Your subscription expires within a day!");
+        Console.WriteLine($"Renew now and save {discountPercentage}%!");
+    }
+    else if (daysUntilExpiration <= 5)
+    {
+        discountPercentage = 10;
+        Console.WriteLine($"Your subscription expires in {daysUntilExpiration} days.");
+        Console.WriteLine($"Renew now and save {discountPercentage}%!");
+    }
+    else
+    {
+        Console.WriteLine("Your subscription will expire soon. Renew now!");
+    }
+}
+*/

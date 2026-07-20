@@ -12,3 +12,4 @@ C:\Users\Pc\Desktop\Emi\Extracurricular programación\CsharpProjects\TestProject
 C:\Users\Pc\Desktop\Emi\Extracurricular programación\CsharpProjects\TestProject\obj\Debug\net10.0\TestProject.pdb
 C:\Users\Pc\Desktop\Emi\Extracurricular programación\CsharpProjects\TestProject\obj\Debug\net10.0\TestProject.genruntimeconfig.cache
 C:\Users\Pc\Desktop\Emi\Extracurricular programación\CsharpProjects\TestProject\obj\Debug\net10.0\ref\TestProject.dll
+C:\Users\Pc\Desktop\Emi\Extracurricular programación\CsharpProjects\TestProject\obj\Debug\net10.0\TestProject.sourcelink.json
